@@ -137,7 +137,7 @@ SECRET_KEY = '(z2f6e!q$d-w)5*08%z5v1su%!i3g88!3uckq(i!6@p!95n+r0'
 # python manage.py shell -c 'from django.core.management import utils; print(utils.get_random_secret_key())'
 # ToDo Django environs
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['*']
 
